@@ -1,0 +1,14 @@
+[options]
+addons_path = enterprise,odoo/odoo/addons,odoo/addons,modules/common,
+
+db_user = odoo11
+
+log_level = debug
+
+data_dir = /tmp/data-dir/odoo11
+email_from=guy@local.test
+
+[odooties]
+#
+# Various configuration knobs to work around Odoo oddities
+#
